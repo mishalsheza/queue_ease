@@ -233,6 +233,12 @@ router.post("/login", async (req, res) => {
     });
   }
 });
+router.get("/me", protect, (req, res) => {
+  res.json({
+    user: req.user
+  });
+});
+
 // Add this route to auth.js for testing
 router.get("/test-protected", protect, (req, res) => {
   res.json({ 
