@@ -45,7 +45,7 @@ Installation
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/queueease.git
+git clone https://github.com/mishalsheza/queue_ease
 cd queueease
 Install dependencies
 
@@ -66,7 +66,6 @@ npx expo start
 Run on your device
 
 Press a for Android
-
 Press i for iOS
 
 Scan QR code with Expo Go app (for physical devices)
